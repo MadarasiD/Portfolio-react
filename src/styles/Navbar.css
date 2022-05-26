@@ -54,7 +54,7 @@ a, a:hover {
 
 .navbar .nav-item {
 
-    margin-left: 50px;
+    margin-left: 55px;
 }
 
 .navbar .nav-item .nav-link {
@@ -65,4 +65,27 @@ a, a:hover {
     font-weight: 400;
     padding: 8px 0;
     position: relative;
+}
+
+.navbar .nav-item .nav-link::after {
+
+    content: "";
+    position: absolute;
+    background-color: #9b0948;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: all 0.2s linear;
+}
+
+.navbar .nav-item .nav-link:hover{
+
+    color: #ac1758;
+    font-size: larger;
+}
+
+.navbar .nav-item .nav-link:hover::after {
+
+    width: 100%;
 }
