@@ -1,15 +1,16 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css'
-import { nav } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import  Nav  from 'react-bootstrap/Nav'
+import '../styles/Navbar.css'
 
 const Navbar = () => {
   return (
     <header className="header-area">
 
-        <nav className="navbar navbar-expand-lg fixed-top">
-            <div className="container">
+        <Nav className="navbar navbar-expand-lg fixed-top" >
+            <div className="container" >
 
-                <a href="Home">Madarasi Dániel <br />Frontend Developer</a>
+                <a href="Home" className="navbar-brand">Madarasi Dániel <br />Frontend Developer</a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 
@@ -17,12 +18,16 @@ const Navbar = () => {
 
                 </button>
 
-                <div className="collapse navbar-collapse" id="collapsibleNavbar">
+                
 
-                    <ul className="navbar-nav m1-auto">
+                <div className="justify-content-end" id="collapsibleNavbar">
+
+                    <ul className="navbar-nav" >
+
+                    
 
                         <li className="nav-item">
-                            <a href="Home" className='nav-link' active>Home</a>
+                            <a href="Home" className='nav-link' activeSytle>Home</a>
                         </li>
 
                         <li className="nav-item">
@@ -47,7 +52,7 @@ const Navbar = () => {
 
             </div>
 
-        </nav>
+        </Nav>
 
     </header>
   )
