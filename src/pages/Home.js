@@ -4,6 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa'
 
 
 const Home = () => {
@@ -78,6 +79,7 @@ const Home = () => {
                                 <li><a href="#"><i><FaFacebook /></i>Facebook</a></li>
                                 <li><a href="#"><i><FaTwitter /></i>Twitter</a></li>
                                 <li><a href="#"><i><FaLinkedin /></i>LinkedIn</a></li>
+                                <li><a href="#"><i><FaInstagram /></i>Instagram</a></li>
                                 
                             </ul>
                         </div>
