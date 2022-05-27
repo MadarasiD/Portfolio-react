@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import  Nav  from 'react-bootstrap/Nav'
 import '../styles/Navbar.css'
 
+
+
 const Navbar = () => {
+
+    
   return (
     <header className="header-area">
 
@@ -22,9 +26,11 @@ const Navbar = () => {
 
                 <div className="justify-content-end" id="collapsibleNavbar">
 
+                
+
                     <ul className="navbar-nav" >
 
-                    
+                        
 
                         <li className="nav-item">
                             <a href="Home" className='nav-link' activeSytle>Home</a>
@@ -46,7 +52,12 @@ const Navbar = () => {
                             <a href="Contact" className='nav-link'>Contact</a>
                         </li>
 
+                       
+                        
                     </ul>
+
+                    
+                    
 
                 </div>
 

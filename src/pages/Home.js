@@ -10,6 +10,38 @@ const Home = () => {
   return (
     <div className="home" id="home">
         <div className="header-content d-flex align-items-center">
+            <div id="parallax">
+
+            <div className="header-shape shape-one">
+                    <img src={require("../assets/HTML5.png")} alt="" />
+                </div>
+
+                <div className="header-shape shape-two">
+                    <img src={require("../assets/CSS.png")} alt="" />
+                </div>
+
+                <div className="header-shape shape-three">
+                    <img src={require("../assets/js.jpg")} alt="" />
+                </div>
+
+                <div className="header-shape shape-fore">
+                    <img src={require("../assets/Bootstrap.png")} alt="" />
+                </div>
+
+                <div className="header-shape shape-five">
+                    <img src={require("../assets/REACT.png")} alt="" />
+                </div>
+
+                <div className="header-shape shape-six">
+                    <img src={require("../assets/Angular.png")} alt="" />
+                </div>
+
+                <div className="header-shape shape-seven">
+                    <img src={require("../assets/Photoshop2.png")} alt="" />
+                </div>
+
+                
+            </div>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
@@ -19,9 +51,7 @@ const Home = () => {
                             <h1>MADARASI DÁNIEL</h1>
                             <p>Frontend Developer</p>
 
-                            <div className="home-btn">
-                                <a href="#" className='btn-1'>My works</a>
-                            </div>
+                            
 
                         </div>
                     </div>
@@ -43,10 +73,11 @@ const Home = () => {
                     <div className="col-lg-12">
                         <div className="header-social-icon">
                             <ul>
-                                <li><a href="#"><i><FaGithub /></i></a></li>
-                                <li><a href="#"><i><FaFacebook /></i></a></li>
-                                <li><a href="#"><i><FaTwitter /></i></a></li>
-                                <li><a href="#"><i><FaLinkedin /></i></a></li>
+                                <li><a href="#"><i><FaGithub /></i>Github
+                                </a></li>
+                                <li><a href="#"><i><FaFacebook /></i>Facebook</a></li>
+                                <li><a href="#"><i><FaTwitter /></i>Twitter</a></li>
+                                <li><a href="#"><i><FaLinkedin /></i>LinkedIn</a></li>
                                 
                             </ul>
                         </div>
