@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import  Nav  from 'react-bootstrap/Nav'
 import '../styles/Navbar.css'
+import { Spin as Hamburger } from 'hamburger-react'
+
 
 
 
@@ -52,11 +54,11 @@ const Navbar = () => {
                             <a href="Contact" className='nav-link'>Contact</a>
                         </li>
 
-                       
+                        
                         
                     </ul>
 
-                    
+                    <Hamburger className="hamburger" easing="ease-in" />   
                     
 
                 </div>
