@@ -5,11 +5,19 @@ import { FaFacebook } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa'
+import {motion} from 'framer-motion'
 
 
 const Home = () => {
   return (
-    <div className="home" id="home">
+    <motion.div 
+    className="home" id="home"
+    
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+
+    >
         <div className="header-content d-flex align-items-center">
             <div id="parallax">
 
@@ -91,7 +99,7 @@ const Home = () => {
         </div>
 
         
-    </div>
+    </motion.div>
   )
 }
 
