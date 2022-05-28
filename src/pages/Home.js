@@ -6,6 +6,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa'
 import {motion} from 'framer-motion'
+import {BsPatchCheckFill} from 'react-icons/bs'
 
 
 const Home = () => {
@@ -80,6 +81,7 @@ const Home = () => {
 
             </div>
 
+             
                 
                     <div className="header-social">
                         <div className="container">
@@ -103,7 +105,7 @@ const Home = () => {
 
         </div>
 
-        
+        <script src="circle-progress.js"></script>
     </motion.div>
   )
 }
