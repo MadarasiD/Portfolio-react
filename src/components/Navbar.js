@@ -11,6 +11,7 @@ import { Spin as Hamburger } from 'hamburger-react'
 const Navbar = () => {
 
     
+    
   return (
     <header className="header-area">
 
@@ -56,7 +57,12 @@ const Navbar = () => {
                         </li>
                         
                         <button>
-                        <Hamburger className="hamburger" easing="ease-in" />   
+                        <Hamburger className="hamburger" easing="ease-in" />
+                        <span className='bar'></span>   
+                        <span className='bar'></span>   
+                        <span className='bar'></span>   
+                        <span className='bar'></span>   
+                        <span className='bar'></span>   
                         </button>
                         
                     </ul>

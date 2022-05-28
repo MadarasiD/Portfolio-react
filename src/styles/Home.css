@@ -2,7 +2,7 @@
 
     font-family: 'Lobster', cursive;
     height: 800px;
-    background-color: #e3e0e0;
+    background-color: rgb(59, 61, 62, 0.9);
     position: relative;
     overflow: hidden;
     padding-left: 10%;
@@ -14,7 +14,7 @@
     font-weight: 550;
     padding-bottom: 10px;
     color: #a53535;
-    text-shadow: 2px 2px #7f7575;
+    text-shadow: 2px 2px #373333;
     letter-spacing: 3px;
 }
 
@@ -34,7 +34,7 @@
     font-weight: 450;
     padding-bottom: 10px;
     color: #14023a;
-    text-shadow: 2px 2px #6c5a5a;
+    text-shadow: 2px 2px #3a3333;
     line-height: 20px;
     letter-spacing: 3px;
 }
@@ -77,22 +77,22 @@
     align-items: center;
     text-align: center;
     padding-left: 5px;
-    color: #180d48;
+    color: #070416;
     font-family: 25px;
     width: 120px;
     display: inline-block;
     line-height: 30px;
     border-radius: 50%;
-    border: 1px solid rgb(110, 100, 100);
+    border: 1px solid rgb(139, 127, 127);
     text-align: center;
-    box-shadow: 2px 2px #7f7575;
+    box-shadow: 2px 2px #2f2b2b;
     transition: all 0.4s ease-out 0.1s;
 }
 
 .header-social .header-social-icon ul li a:hover {
 
     color: #fff;
-    background-color: #a53535;
+    background-color: #3e2a2a;
     border-color: #a53535;
 }
 
