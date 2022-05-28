@@ -91,11 +91,48 @@ a, a:hover {
     width: 100%;
 }
 
-.navbar-nav .hamburger {
+.navbar ul button {
+    background: transparent;
+    border: none;
     display: none;
 }
 
+
+
+
 @media screen and (max-width: 1000px){
 
-    
+    .navbar .navbar-nav a{
+
+        display: none;
+    }
+
+    .navbar .navbar-brand {
+
+        font-size: 23px;
+        color: #6b0e0e;
+        font-weight: 375;
+    }
+
+    .navbar ul button {
+
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+
+    .navbar .navbar-brand {
+
+        font-size: 35px;
+        color: #6b0e0e;
+        font-weight: 450;
+    }
+
+    .navbar .nav-item .nav-link {
+
+        font-size: 30px;
+        font-weight: 400;
+    }
 }

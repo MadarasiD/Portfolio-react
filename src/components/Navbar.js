@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import  Nav  from 'react-bootstrap/Nav'
 import '../styles/Navbar.css'
 import { Spin as Hamburger } from 'hamburger-react'
+//import ReorderIcon from '@mui/icons-material/Reorder';
 
 
 
@@ -53,12 +54,14 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a href="Contact" className='nav-link'>Contact</a>
                         </li>
-
                         
+                        <button>
+                        <Hamburger className="hamburger" easing="ease-in" />   
+                        </button>
                         
                     </ul>
 
-                    <Hamburger className="hamburger" easing="ease-in" />   
+                    
                     
 
                 </div>

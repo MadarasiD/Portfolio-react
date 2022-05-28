@@ -66,7 +66,6 @@ const Home = () => {
                     </div>
                     <div className="col-lg-5">
                     
-                        <h1> -Frontend Developer -</h1>
                         <h4>-HTML-HyperText Markup Language</h4>
                         <h4>-CSS-Cascading Style Sheets </h4>
                         <h4>-Javascript-</h4>
@@ -82,12 +81,12 @@ const Home = () => {
                     <div className="col-lg-12">
                         <div className="header-social-icon">
                             <ul>
-                                <li><a href="#"><i><FaGithub /></i>Github
+                                <li><a href="#"><i><FaGithub /></i><h6>Github</h6>
                                 </a></li>
-                                <li><a href="#"><i><FaFacebook /></i>Facebook</a></li>
-                                <li><a href="#"><i><FaTwitter /></i>Twitter</a></li>
-                                <li><a href="#"><i><FaLinkedin /></i>LinkedIn</a></li>
-                                <li><a href="#"><i><FaInstagram /></i>Instagram</a></li>
+                                <li><a href="#"><i><FaFacebook /></i><h6>Facebook</h6></a></li>
+                                <li><a href="#"><i><FaTwitter /></i><h6>Twitter</h6></a></li>
+                                <li><a href="#"><i><FaLinkedin /></i><h6>LinkedIn</h6></a></li>
+                                <li><a href="#"><i><FaInstagram /></i><h6>Instagram</h6></a></li>
                                 
                             </ul>
                         </div>
