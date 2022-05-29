@@ -6,7 +6,8 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa'
 import {motion} from 'framer-motion'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import Card from 'react-bootstrap/Card'
+import {GrCompliance} from 'react-icons/gr'
 
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
     >
         <div className="header-content d-flex align-items-center">
 
-             
+             {/* parallax képek beillesztése */}
             <div id="parallax">
 
                 <div className="header-shape shape-one">
@@ -55,7 +56,11 @@ const Home = () => {
                     
             </div>
 
-            <div className="container">
+            {/* parallax képek vége */}
+
+            {/* Home section start */}
+
+            <section className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
 
@@ -69,21 +74,31 @@ const Home = () => {
                         </div>
 
                     </div>
-                            <div className="col-lg-5">
+
+
+                    <div className="col-lg-5">
                                 
                                         <h4>-HTML-HyperText Markup Language</h4>
                                         <h4>-CSS-Cascading Style Sheets </h4>
                                         <h4>-Javascript-</h4>
                                         <h4>-Bootstrap-</h4>
                                 
-                            </div>
+                    </div>
+                     {/* Home section end */}
+
+                      {/*Skills  section start */}
+
+                       
+
+                        {/*Skills  section end */}
                 </div>
 
-            </div>
+            </section>
 
-             
-                
-                    <div className="header-social">
+
+             {/*Social media  section start */}
+                 
+            <section className="header-social">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
@@ -101,11 +116,15 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+             </section>
+
+            {/*Social media  section end */}   
 
         </div>
 
-        <script src="circle-progress.js"></script>
+        
+
+        
     </motion.div>
   )
 }

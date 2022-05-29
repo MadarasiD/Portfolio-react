@@ -1,7 +1,7 @@
 .header-content{
 
     font-family: 'Lobster', cursive;
-    height: 800px;
+    height: 100vh;
     background-color: rgb(59, 61, 62, 0.9);
     position: relative;
     overflow: hidden;
@@ -329,40 +329,3 @@
 }
 
 
-.mh-skills .mh-circle-skills {
-
-    padding-right: 60px;
-    color: #fff;
-}
-
-.mh-skills .mh-circle-skills h3{
-
-    font-size: 30px;
-    line-height: 40px;
-    text-align: center;
-    font-weight: 350;
-    margin-bottom: 60px;
-}
-
-
-.mh-circle-skills {
-
-    padding-left: 20px;
-}
-
-.mh-circle-progress li {
-
-    display: inline-block;
-    margin: 0 auto;
-    width: 48%;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-
-.mh-progress {
-
-    margin-bottom: 10px;
-    font: 900 1.14285/1;
-    color: #fff;
-}

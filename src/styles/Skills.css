@@ -1,4 +1,12 @@
-.Myskill {
-
+.card-base {
+    height: 100vh;
     background-color: rgb(59, 61, 62, 0.9);
+    margin-top: 170px;
+    
+    
+}
+
+.cardtext {
+
+    font-size: 12px;
 }
